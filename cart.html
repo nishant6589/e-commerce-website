@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style4.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;0,600;0,800;1,100;1,700&display=swap"
+        rel="stylesheet">
+    <title>All Products -- Red Store </title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="images\logo.png" width="125px" alt="website logo"></a>
+            </div>
+            <nav>
+                <ul id="Menuitem">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="product.html">PRODUCT</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">CONTACT</a></li>
+                    <li><a href="account.html">ACCOUNT</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="images/cart.png" width="30px" height="30px" alt="cart image"></a>
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+<!--            cart items details         -->
+<div class="small-container   cart-page">
+
+    <table>
+        <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Sub total</th>
+        </tr>
+        <tr>
+            <td> <div class="cart-info">
+                <img src="images/buy-1.jpg" alt="">
+                <div>
+                    <p>Red Printed T-shirts</p>
+                    <small>Price  : 50.00$ <br> </small>
+                    <a href="" class="">Remove</a>
+                </div>
+            </div></td>
+            <td><input type="number" value="1" ></td>
+            <td>$50.00</td>
+        </tr>
+        <tr>
+            <td> <div class="cart-info">
+                <img src="images/buy-2.jpg" alt="">
+                <div>
+                    <p>Black casual Sports shoes</p>
+                    <small>Price  : 58.00$ <br> </small>
+                    <a href="" class="">Remove</a>
+                </div>
+            </div></td>
+            <td><input type="number" value="1" ></td>
+            <td>$50.00</td>
+        </tr>
+        <tr>
+            <td> <div class="cart-info">
+                <img src="images/buy-3.jpg" alt="">
+                <div>
+                    <p>Stylist Grey Track pants</p>
+                    <small>Price  : 30.00$ <br> </small>
+                    <a href="" class="">Remove</a>
+                </div>
+            </div></td>
+            <td><input type="number" value="1" ></td>
+            <td>$50.00</td>
+        </tr>
+    </table>
+
+    <div class="total-price">
+        <table>
+            <tr>
+                <td>Subtotal</td>
+                <td>$128.00</td>
+            </tr>
+            <tr>
+                <td>tax</td>
+                <td>$12.80</td>
+            </tr>
+            <tr>
+                <td>total</td>
+                <td>$140.80</td>
+            </tr>
+        </table>
+    </div>
+
+
+</div>
+
+
+
+
+
+    
+<!--footer-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download our app</h3>
+                <p>Download App from Google Playstore or from ios store</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png" alt="">
+                    <img src="images/app-store.png" alt="">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/logo-white.png" alt="">
+                <p>Our Purpose is to sustainably make the  <br> pleasure and Benefits of sports <br> accessible to all</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join affilate</li>
+                    </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Youtube</li>
+                        <li>Instagram</li>
+                    </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2022 June --------------<strong>Nishant</strong>😂😂😂😂 By watching youtube tutorials video</p>
+    </div>
+</div>
+<!--         Java script code for toggkle menu-->
+<script>
+    var Menuitems = document.getElementById("Menuitem");
+    Menuitem.style.maxHeight="0px";
+    function menutoggle(){
+        if(Menuitem.style.maxHeight=="0px"){
+            Menuitem.style.maxHeight="200px";
+        }
+        else{
+            Menuitem.style.maxHeight="0px";
+        }
+    }
+</script>
+
+
+
+
+
+
+</body>
+
+</html>

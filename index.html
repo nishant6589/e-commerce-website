@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style4.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;0,600;0,800;1,100;1,700&display=swap"
+        rel="stylesheet">
+    <title>Red Store E-commerce Website Design</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="images\logo.png" width="125px" alt="website logo"></a>
+                </div>
+                <nav>
+                    <ul id="Menuitem">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="product.html">PRODUCT</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">CONTACT</a></li>
+                        <li><a href="account.html">ACCOUNT</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="images/cart.png" width="30px" height="30px" alt="cart image"></a>
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Give your workout</br> A new style</h1>
+                    <p>
+                        Sucess isn't always about greatness. It's about consistancy.</br>
+                        Consistency hard work gains sucess.
+                        Greatness will come
+                    </p>
+                    <a href="" class="btn">EXPLORE NOW &#8594</a>
+                </div>
+                <div class="col-2">
+                    <img src="images/image1.png" alt="Workout images">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--features categories-->
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/category-1.jpg" alt="category-1.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="images/category-2.jpg" alt="category-2.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="images/category-3.jpg" alt="category-3.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--features products-->
+    <div class="small-container">
+        <h2 class="title">
+            Featured Products
+        </h2>
+        <div class="row">
+            <div class="col-4">
+                <a href="product-details.html">
+                <img src="images/product-1.jpg" alt="">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                </div>
+                <p>$50.00</p>
+                </a>
+            </div>
+            <div class="col-4">
+                <img src="images/product-2.jpg" alt="">
+                <h4>Black casual Sports shoes</h4>
+                <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                </div>
+                <p>$58.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-3.jpg" alt="">
+                <h4>Stylist Grey Track pants</h4>
+                <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                </div>
+                <p>$30.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-4.jpg" alt="">
+                <h4>Puma Dark Blue plain T-Shirt</h4>
+                <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon>
+                </div>
+                <p>$80.00</p>
+            </div>
+        </div>
+        <h2 class="title">
+            Latest Products
+        </h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product-5.jpg" alt="">
+                <h4>White Sports Shoes</h4>
+                <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                </div>
+                <p>$150.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-6.jpg" alt="">
+                <h4>Black Casual Wear T-Shirt</h4>
+                <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                </div>
+                <p>$28.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-7.jpg" alt="">
+                <h4>Sweat Proof Socks</h4>
+                <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon>
+                </div>
+                <p>$30.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-8.jpg" alt="">
+                <h4>FOSSILS Men Watch</h4>
+                <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                </div>
+                <p>$280.00</p>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/product-9.jpg" alt="">
+                    <h4>BrandX Dual wear watch</h4>
+                    <div class="rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-half"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                    <p>$350.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-10.jpg" alt="">
+                    <h4>Black casual Sports shoes</h4>
+                    <div class="rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                    </div>
+                    <p>$98.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-11.jpg" alt="">
+                    <h4>Stylist Grey Shoes</h4>
+                    <div class="rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                    <p>$305.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-12.jpg" alt="">
+                    <h4>Puma Dark Black plain Track Pant</h4>
+                    <div class="rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-half"></ion-icon>
+                    </div>
+                    <p>$85.00</p>
+                </div>
+        </div>
+    </div>
+    </div>
+<!--Offers-->
+    <div class="offer">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/exclusive.png" class="offer-img" alt="">
+            </div>
+            <div class="col-2">
+                <p>Exclusively Available on RedStore</p>
+                <h1>Smart Band 4</h1>
+                <small>The Mi Smart Band 4 features a 39.9% larger (than Mi Band 3) <br>
+                     AMOLED full-touch display with adjustable brightness .
+                     <br> So everything is clear as can be.  <br></small>
+                <a href="" class="btn">Buy Now &#8594</a>
+            </div>
+        </div>
+    </div>
+    </div>
+<!--testinomial-->
+    <div class="testinomial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <ion-icon name="quote"></ion-icon>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit <br>
+                        . Aut provident quam possimus atque cupiditate assumenda quisquam! Accusantium voluptas,<br>
+                         accusamus ut iusto quam ratione aperiam ipsum delectus dolorem animi eius eaque.
+                    </p>
+                    <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon>
+                </div>
+                <img src="images/user-1.png" alt="">
+                <h3>Sara Parkar</h3>
+            </div>
+            <div class="col-3">
+                <ion-icon name="quote"></ion-icon>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit <br>
+                    . Aut provident quam possimus atque cupiditate assumenda quisquam! Accusantium voluptas,<br>
+                     accusamus ut iusto quam ratione aperiam ipsum delectus dolorem animi eius eaque.
+                </p>
+                <div class="rating">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star-half"></ion-icon>
+            </div>
+            <img src="images/user-2.png" alt="">
+            <h3>David Parker </h3>
+            </div>
+            <div class="col-3">
+                <ion-icon class="quote" name="quote"></ion-icon>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit <br>
+                    . Aut provident quam possimus atque cupiditate assumenda quisquam! Accusantium voluptas,<br>
+                     accusamus ut iusto quam ratione aperiam ipsum delectus dolorem animi eius eaque.
+                </p>
+                <div class="rating">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+            </div>
+            <img src="images/user-3.png" alt="">
+            <h3>Mebel Joe</h3>
+            </div>
+            </div>
+        </div>
+    </div>
+<!--brands-->
+<div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <img src="images/logo-godrej.png" alt="">
+            </div>
+            <div class="col-5">
+                <img src="images/logo-coca-cola.png" alt="">
+            </div>
+            <div class="col-5">
+                <img src="images/logo-oppo.png" alt="">
+            </div>
+            <div class="col-5">
+                <img src="images/logo-paypal.png" alt="">
+            </div>
+            <div class="col-5">
+                <img src="images/logo-philips.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<!--Footer-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download our app</h3>
+                <p>Download App from Google Playstore or from ios store</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png" alt="">
+                    <img src="images/app-store.png" alt="">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/logo-white.png" alt="">
+                <p>Our Purpose is to sustainably make the  <br> pleasure and Benefits of sports <br> accessible to all</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join affilate</li>
+                    </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Youtube</li>
+                        <li>Instagram</li>
+                    </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2022 June --------------<strong>Nishant</strong>😂😂😂😂 By watching youtube tutorials video</p>
+    </div>
+</div>
+<!--         Java script code for toggkle menu-->
+<script>
+    var Menuitems = document.getElementById("Menuitem");
+    Menuitem.style.maxHeight="0px";
+    function menutoggle(){
+        if(Menuitem.style.maxHeight=="0px"){
+            Menuitem.style.maxHeight="200px";
+        }
+        else{
+            Menuitem.style.maxHeight="0px";
+        }
+    }
+</script>
+
+</body>
+
+</html>
